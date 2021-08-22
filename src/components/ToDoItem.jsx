@@ -19,6 +19,7 @@ function ToDoItem(props) {
       onClick={() => {
         props.onChecked(props.id);
       }}
+      style={{ cursor: "pointer" }}
     >
       {props.text}
     </li>
